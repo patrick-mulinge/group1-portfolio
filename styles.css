@@ -1,0 +1,50 @@
+/* Applies general styling to the whole page */
+body {
+    font-family: Arial, sans-serif; /* Sets the font type */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Text color */
+}
+
+/* Styles the header section */
+header {
+    background-color: #003366; /* Dark blue background */
+    color: white;
+    padding: 15px;
+}
+
+/* Removes bullet points and aligns navigation links */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+
+/* Styles navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Adds space around main content */
+main {
+    padding: 20px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        /* Navigation switches to vertical layout on small screens */
+    }
+}
